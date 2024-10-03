@@ -1,0 +1,6 @@
+.brand {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: start;
+  color: var(--heading-color);
+}

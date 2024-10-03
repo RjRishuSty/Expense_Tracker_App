@@ -1,0 +1,35 @@
+.expenses {
+  /* border: 2px solid yellow; */
+  width: 355.41px;
+  height: 181px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: var(--fourth-background-color);
+}
+
+.expensesTitle {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--heading-color);
+}
+.expensesAmount {
+  font-size: 30px;
+  font-weight: 700;
+  color: #F4BB4A;
+}
+.button {
+  position: relative;
+  top: 15px;
+  width: 167.65px;
+  height: 38px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--button-text-color);
+}

@@ -1,0 +1,22 @@
+.heroBox {
+  /* border: 2px solid red; */
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background-color: var(--second-background-color);
+}
+.cardDiv {
+  /* border: 2px solid rgb(255, 255, 255); */
+  width: 60%;
+  height: auto;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}

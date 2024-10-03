@@ -1,0 +1,34 @@
+.wallet {
+  /* border: 2px solid yellow; */
+  width: 355.41px;
+  height: 181px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: var(--fourth-background-color);
+  margin: 10px;
+}
+.cardTitle {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--heading-color);
+}
+.cardAmount {
+  font-size: 30px; 
+  font-weight: 700;
+  color: var(--second-text-color);
+}
+.button {
+  position: relative;
+  top: 15px;
+  width: 167.65px;
+  height: 38px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--button-text-color);
+}
