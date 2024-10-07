@@ -1,6 +1,18 @@
+.nav{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  /* top: -19px; */
+}
 .brand {
+  /* border: 2px solid red; */
   font-size: 32px;
   font-weight: 700;
   text-align: start;
   color: var(--heading-color);
 }
+ 

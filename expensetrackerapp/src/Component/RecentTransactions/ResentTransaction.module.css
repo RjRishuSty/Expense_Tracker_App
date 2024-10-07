@@ -1,0 +1,139 @@
+.resentTransaction {
+  /* border: 2px solid yellow; */
+  width: 65%;
+  height: auto;
+  /* padding: 10px; */
+}
+
+.heading {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+}
+.card {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.ul {
+  text-decoration: none;
+}
+.li {
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #9B9B9B;
+}
+.content {
+  /* border: 2px solid pink; */
+  width: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.profile {
+  width: 38px;
+  height: 38px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.userDetails {
+  position: relative;
+  left: 15px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  color: #9b9b9b;
+  letter-spacing: 0.5px;
+}
+
+.amountAndButton {
+  /* border: 2px solid yellow; */
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+  color: #f4bb4a;
+  margin: 0px 10px;
+}
+
+.buttonBox {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.deleteButton {
+  width: 37px;
+  height: 37px;
+  border-radius: 15px;
+  background-color: #ff3e3e;
+  color: white;
+  border: none;
+}
+.editButton {
+  width: 37px;
+  height: 37px;
+  border-radius: 15px;
+  background-color: #F4BB4A;
+  color: white;
+  border: none;
+}
+.notFound{
+  /* border: 2px solid red; */
+  height: auto;
+  width: 100%;
+  padding: 70px 10px;
+  color: #9b9b9b;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 887px) {
+  .resentTransaction {
+    /* border: 2px solid yellow; */
+    width: 100% !important;
+    height: auto;
+    padding: 0px 0px 50px 0px;
+  }
+}
+@media (max-width: 700px) {
+  .amountAndButton {
+    /* border: 2px solid yellow; */
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }  
+}

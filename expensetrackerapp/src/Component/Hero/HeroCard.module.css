@@ -1,13 +1,13 @@
 .heroBox {
-  /* border: 2px solid red; */
+  /* border: 2px solid rgb(0, 21, 255); */
   position: relative;
-  top: 15px;
+  top: 10px;
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 20px;
+  padding: 25px 15px;
   border-radius: 10px;
   background-color: var(--second-background-color);
 }
@@ -15,8 +15,39 @@
   /* border: 2px solid rgb(255, 255, 255); */
   width: 60%;
   height: auto;
-  display: flex; 
+  display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
+}
+
+/* resentOrTopCard */
+.resentOrTopCard {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 887px) {
+  .cardDiv {
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .heroBox {
+    /* border: 2px soli red; */
+    flex-wrap: wrap;
+  }
+  .resentOrTopCard{
+    /* border: 5px solid green; */
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
 }

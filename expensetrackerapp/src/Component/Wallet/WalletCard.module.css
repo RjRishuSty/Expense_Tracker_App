@@ -17,7 +17,7 @@
 }
 .cardAmount {
   font-size: 30px; 
-  font-weight: 700;
+  font-weight: 700; 
   color: var(--second-text-color);
 }
 .button {
@@ -32,3 +32,11 @@
   font-weight: 700;
   color: var(--button-text-color);
 }
+
+@media  (max-width:1149px){
+  .wallet {
+    /* border: 2px solid yellow; */
+    padding: 5px 10px;
+  }
+}
+ 

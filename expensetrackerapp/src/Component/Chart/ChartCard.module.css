@@ -7,71 +7,9 @@
   align-items: center;
   flex-direction: column;
 }
-.firstDiv {
-  /* border: 2px solid green; */
-  width: 199px;
-  height: 199px;
-  background-color: #ff9304;
-  font-size: 12px; 
-  font-weight: 700;
-  color: white;
-  border-radius: 110%;
-}
-.fitstText {
-  position: relative;
-  top: 70px;
-  left: 90px;
-  font-size: 12px; 
-  font-weight: 700;
-  color: white;
-}
-.secondDiv {
-  position: relative;
-  top: 55px;
-  left: 100px;
-  width: 100px;
-  height: 100px;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid rgb(250, 250, 6);
-  border-radius: 40%;
-  transform: rotate(110deg);
-}
-.secondText {
-  position: absolute;
-  top: -55px;
-  left: -16px;font-size: 12px; 
-  font-weight: 700;
-  color: white;
-}
-.thirdtDiv {
-  width: 199px;
-  height: 199px;
-  position: absolute;
-  bottom: 15px;
-  top: 16%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 110%;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-bottom: 100px solid #a000ff;
-  transform: rotate(-5deg);
-}
-.thirdText {
-  position: absolute;
-  top: 140px;
-  left: -16px;
-  font-size: 12px; 
-  font-weight: 700;
-  color: white;
-}
 .description {
   /* border: 2px solid white; */
   width: 90%;
-  position: relative;
-  top: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -80,33 +18,63 @@
 .Box {
   /* border: 1px solid red; */
   width: auto;
-  font-family: Open Sans;
   font-size: 12px;
   font-weight: 400;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  padding-inline-end: 5px;
 }
-.foodBorder{
+.foodBorder {
   /* border: 1px solid #A000FF ; */
   width: 30px;
   height: 10px;
-  background-color: #A000FF;
+  background-color: #a000ff;
   margin-right: 10px;
 }
-.entertainmentBorder{
+.entertainmentBorder {
   /* border: 1px solid #A000FF ; */
   width: 30px;
   height: 10px;
-  background-color: #FF9304;
+  background-color: #ff9304;
   margin-right: 10px;
 }
-.travelBorder{
+.travelBorder {
   /* border: 1px solid #A000FF ; */
   width: 30px;
   height: 10px;
-  background-color: #FDE006;
+  background-color: #fde006;
   margin-right: 10px;
 }
+.notFound{
+  /* border: 2px solid red; */
+  height: auto;
+  width: 100%;
+  padding: 70px 10px;
+  color: #9b9b9b;
+  text-align: center;
+  font-size: 1.2rem;
+}
+@media (max-width: 1083px) {
+  .chart {
+    /* border: 2px solid yellow; */
+    width: 35%;
+    padding: 15px 10px;
+  }
+  .description {
+    /* border: 2px solid yellow; */
+    width: 100%;
+  }
+}
+@media (max-width: 891px) {
+  .chart {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
+
+
+
+
