@@ -102,7 +102,7 @@ const ResentTransaction = () => {
                           <button
                             className={Styles.editButton}
                             onClick={() =>
-                              editHandler(item, index + indexOfFirstExpense)
+                              editHandler(item, index )
                             }
                           >
                             <i className="fa-solid fa-pen-to-square"></i>

@@ -100,7 +100,7 @@ select:not([value=""]) {
 
 @media (max-width: 543px) {
   .addExpense {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: auto;
     padding-bottom: 70px;
